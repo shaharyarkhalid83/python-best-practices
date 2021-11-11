@@ -4,6 +4,7 @@ pizza_dictionary = [("pepperoni", 2), ("hawaiian", 7), ("pepperoni",8), ("cheese
 
 
 '''
+program displays histogram of pizzas
 '''
 result = {}
 for item in pizza_dictionary:
@@ -19,3 +20,4 @@ for k, v in result.items():
 
 plt.bar(list(result.keys()), result.values())
 plt.show()
+
