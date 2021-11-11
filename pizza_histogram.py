@@ -6,7 +6,7 @@ pizza_dictionary = [("pepperoni", 2), ("hawaiian", 7), ("pepperoni",8), ("cheese
 '''
 '''
 result = {}
-for item in dictionary:
+for item in pizza_dictionary:
     if item[0] in result.keys():
         result[item[0]] += i[1]
     else:
